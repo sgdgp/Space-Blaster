@@ -82,6 +82,23 @@ class ActorEvents_1 extends ActorScript
 	override public function init()
 	{
 		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				actor.setXVelocity(0);
+				if(isKeyDown("left"))
+				{
+					actor.setXVelocity(-(Engine.engine.getGameAttribute("PlayerSpeed")));
+				}
+				if(isKeyDown("right"))
+				{
+					actor.setXVelocity(Engine.engine.getGameAttribute("PlayerSpeed"));
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)
