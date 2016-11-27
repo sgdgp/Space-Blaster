@@ -8,7 +8,19 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="1" name="PlayerShip 1" sx="1.0" sy="1.0" x="347" y="436" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="3" name="EnemyShip 2" sx="1.0" sy="1.0" x="3" y="-1" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="3" name="EnemyShip 3" sx="0.81632656" sy="0.81632656" x="28" y="111" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="3" name="EnemyShip 4" sx="1.0" sy="1.0" x="124" y="26" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="3" name="EnemyShip 5" sx="0.67346936" sy="0.67346936" x="172" y="148" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="3" name="EnemyShip 6" sx="0.59183675" sy="0.59183675" x="231" y="59" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="3" name="EnemyShip 7" sx="1.2826087" sy="1.2826087" x="344" y="131" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="3" name="EnemyShip 8" sx="1.0" sy="1.0" x="396" y="4" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="3" name="EnemyShip 9" sx="1.2391304" sy="1.2391304" x="492" y="144" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="3" name="EnemyShip 10" sx="1.0" sy="1.0" x="558" y="37" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="3" name="EnemyShip 11" sx="1.0" sy="1.0" x="647" y="143" z="0"/>
+    </actors>
     <snippets/>
     <terrain/>
     <atlases members="" retainAtlases="true"/>
