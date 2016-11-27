@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<pack/>
+<pack>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="1.0" height="256" id="0" name="StarfieldBG" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="256" xpf="1.0" ypf="1.0"/>
+</pack>
