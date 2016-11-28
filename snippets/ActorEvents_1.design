@@ -53,7 +53,7 @@
                             </get-xy>
                             <get-xy comment="false" id="2" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
-                                <int id="1" val="0"/>
+                                <int id="1" val="1"/>
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>

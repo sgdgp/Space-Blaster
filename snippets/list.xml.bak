@@ -21,7 +21,9 @@
     </snippet>
     <snippet actorid="7" attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_7" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_5_5_CannotExitScreen" classname="scripts.Design_5_5_CannotExitScreen" desc="Prevent the actor from leaving the screen." description="Prevent the actor from leaving the screen." design="true" drawOrder="0" id="5" name="Cannot Exit Screen" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
