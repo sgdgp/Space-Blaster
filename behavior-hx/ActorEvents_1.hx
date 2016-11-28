@@ -99,6 +99,19 @@ class ActorEvents_1 extends ActorScript
 			}
 		});
 		
+		/* =========================== Keyboard =========================== */
+		addKeyStateListener("action1", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && pressed)
+			{
+				if((Engine.engine.getGameAttribute("NumMissiles") > 0))
+				{
+					createRecycledActor(getActorType(7), actor.getX(), actor.getX(), Script.FRONT);
+					Engine.engine.setGameAttribute("NumMissiles", (Engine.engine.getGameAttribute("NumMissiles") - 1));
+				}
+			}
+		});
+		
 	}
 	
 	override public function forwardMessage(msg:String)
