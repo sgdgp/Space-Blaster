@@ -8,7 +8,7 @@
             <poly data="4,0,0,98,0,98,93,0,93" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Explosion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Explosion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="128" id="6" name="Explosion" shared="false" width="128">
